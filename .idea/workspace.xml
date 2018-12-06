@@ -2,27 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f89b85f0-aba4-47a5-9bd9-155bae735019" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Energy/displug/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EnergyOptimization.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EnergyOptimization.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Energy/.idea/Energy.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Energy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Energy/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Energy/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Energy/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Energy/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/Energy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/Energy/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/Energy/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/Energy/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Energy/Energy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Energy/Energy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Energy/Energy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Energy/Energy/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Energy/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/ehouse/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Energy/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyOptimization/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyOptimization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyOptimization/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyOptimization/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyOptimization/wsgi.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displug/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,45 +69,67 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-536982566">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="84" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnergyOptimization/urls.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Energy/Energy/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="e#640#681#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/displug/urls.py">
+        <entry file="file://$PROJECT_DIR$/Energy/displug/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="60">
+              <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Energy/displug/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/displug/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/displug/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -125,14 +155,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Energy/ehouse/views.py" />
-        <option value="$PROJECT_DIR$/Energy/Energy/urls.py" />
-        <option value="$PROJECT_DIR$/Energy/displug/urls.py" />
         <option value="$PROJECT_DIR$/EnergyOptimization/urls.py" />
         <option value="$PROJECT_DIR$/displug/models.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/Energy/displug/views.py" />
+        <option value="$PROJECT_DIR$/Energy/displug/urls.py" />
+        <option value="$PROJECT_DIR$/Energy/Energy/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="1535" />
@@ -154,7 +186,19 @@
             <path>
               <item name="EnergyOptimization" type="b2602c69:ProjectViewProjectNode" />
               <item name="EnergyOptimization" type="462c0819:PsiDirectoryNode" />
+              <item name="Energy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnergyOptimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnergyOptimization" type="462c0819:PsiDirectoryNode" />
+              <item name="Energy" type="462c0819:PsiDirectoryNode" />
               <item name="displug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnergyOptimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnergyOptimization" type="462c0819:PsiDirectoryNode" />
+              <item name="Energy" type="462c0819:PsiDirectoryNode" />
+              <item name="Energy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,10 +236,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22751322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22716442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,37 +266,35 @@
     <entry file="file://$PROJECT_DIR$/Energy/ehouse/views.py" />
     <entry file="file://$PROJECT_DIR$/Energy/ehouse/urls.py" />
     <entry file="file://$PROJECT_DIR$/Energy/Energy/settings.py" />
-    <entry file="file://$PROJECT_DIR$/Energy/Energy/urls.py" />
-    <entry file="file://$PROJECT_DIR$/Energy/displug/urls.py" />
-    <entry file="file://$PROJECT_DIR$/EnergyOptimization/urls.py">
+    <entry file="file://$PROJECT_DIR$/EnergyOptimization/urls.py" />
+    <entry file="file://$PROJECT_DIR$/displug/urls.py" />
+    <entry file="file://$PROJECT_DIR$/displug/models.py" />
+    <entry file="file://$PROJECT_DIR$/manage.py" />
+    <entry file="file://$PROJECT_DIR$/displug/views.py" />
+    <entry file="file://$PROJECT_DIR$/Energy/displug/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/displug/urls.py">
+    <entry file="file://$PROJECT_DIR$/Energy/displug/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/displug/views.py">
+    <entry file="file://$PROJECT_DIR$/Energy/Energy/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#640#681#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/displug/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
