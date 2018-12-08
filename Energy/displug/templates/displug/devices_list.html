@@ -1,0 +1,11 @@
+{% extends "displug/base.html" %}
+{% block portal_content %}
+<h1>Devices</h1>
+<ul>
+{% for device in object_list %}
+    <li>{{ device.consumption}} - {{ device.name }}</li>
+{% empty %}
+    <li>No devices yet.</li>
+{% endfor %}
+{% endblock %}
+</ul>

@@ -1,7 +1,8 @@
 from django.urls import path
+2
 
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', views.DevicesListView.as_view(), name='index'),
 ]
