@@ -1,5 +1,5 @@
 {% extends "displug/base.html" %}
-{% block portal_content %}
+{% block displug_content %}
 {% if devices_list %}
 <h1>Displug</h1>
 <div>
@@ -9,7 +9,7 @@
             <th>Consumption</th>
             <th>(De)Active</th>
         </tr>
-        {% for device in object_list %}
+        {% for device in devices_list %}
             <tr>
                 <td>{{ device.name }}</td>
                 <td>{{ device.consumption}}KWh</td>
