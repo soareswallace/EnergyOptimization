@@ -1,28 +1,43 @@
 {% extends "displug/base.html" %}
 {% block displug_content %}
 {% if devices_list %}
-<h1>Displug</h1>
+<h1 align="center">Displug</h1>
 <div>
     <table class="table table-hover" id="table_list">
         <tr align="center">
             <th>Name</th>
             <th>Consumption</th>
+            <th>Monthly Consumption</th>
+            <th>Schedule action</th>
             <th>(De)Active</th>
         </tr>
         {% for device in devices_list %}
             <tr>
-                <td>{{ device.name }}</td>
-                <td>{{ device.consumption}}KWh</td>
+                <td>{{ device.name }}
+                    {% if device.average_consumption > 5 %}
+                        <i class="material-icons">&#xe002;</i>
+                    {% endif %}
+                </td>
+                <td>{{ device.average_consumption}}KWh</td>
+                <td>
+                    {{device.consumption}}KWh
+                </td>
+                <td>
+                    <input class="btn btn-success" type="submit" value="Schedule">
+                </td>
                 <td>
                     {% if device.active %}
-                        <input class="btn btn-danger" type="submit" value="Turn OFF">
+                    <input class="btn btn-danger" type="submit" value="Turn OFF">
                     {% else %}
-                        <input class="btn btn-primary" type="submit" value="Turn ON">
+                    <input class="btn btn-primary" type="submit" value="Turn ON">
                     {% endif %}
                 </td>
             </tr>
         {% endfor %}
     </table>
+    {% for device in devices_list %}
+
+    {% endfor %}
 </div>
 {% else %}
     <li>No devices yet.</li>
