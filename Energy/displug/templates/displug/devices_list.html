@@ -1,7 +1,7 @@
 {% extends "displug/base.html" %}
 {% block displug_content %}
 {% if devices_list %}
-<h1 align="center">Displug</h1>
+{% load staticfiles %}
 <div>
     <table class="table table-hover" id="table_list">
         <tr align="center">
@@ -23,7 +23,7 @@
                     {{device.consumption}}KWh
                 </td>
                 <td>
-                    <input class="btn btn-success" type="submit" value="Schedule">
+                    <a href="{% url 'Energy:schedule' %}"><b>Add AP</b></a>
                 </td>
                 <td>
                     {% if device.active %}
@@ -35,9 +35,6 @@
             </tr>
         {% endfor %}
     </table>
-    {% for device in devices_list %}
-
-    {% endfor %}
 </div>
 {% else %}
     <li>No devices yet.</li>
