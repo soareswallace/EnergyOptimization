@@ -14,17 +14,15 @@
         {% for device in devices_list %}
             <tr>
                 <td>{{ device.name }}
-                    {% if device.average_consumption > 5 %}
+                    {% if device.consumption > 5 %}
                         <i class="material-icons">&#xe002;</i>
                     {% endif %}
                 </td>
-                <td>{{ device.average_consumption}}KWh</td>
+                <td>{{ device.consumption}}KWh</td>
                 <td>
-                    {{device.consumption}}KWh
+                    {{device.monthly_consumption}}KWh
                 </td>
-                <td>
-                    <a href="{% url 'Energy:schedule' %}"><b>Add AP</b></a>
-                </td>
+                <td><a href="schedule"><b>Schedule</b></a></td>
                 <td>
                     {% if device.active %}
                     <input class="btn btn-danger" type="submit" value="Turn OFF">
